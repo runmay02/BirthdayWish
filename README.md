@@ -1,3 +1,3 @@
 Happy birthday wish using HTML CSS JAVA
 
-https://randillasith.github.io/Birthday/
+https://runmay02.github.io/BirthdayWish/
