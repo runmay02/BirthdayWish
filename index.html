@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      
+      <link rel="stylesheet" href="indexstyle.css">
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Friend Name</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab"rel="stylesheet"/> 
+   <link rel="shortcut icon" type="image/png" href="birthday.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   
+  
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  
+  </head>
+   <body>
+    <div id="container" style="display:none">
+      <div class="s-2"></div>
+      <div class="card">
+          <div class="sides left-side">
+              <h1 class="profession"> Happiest </h3>
+              <h3 class="name">Sunaina </h3>                
+          </div>                     
+          <div class="sides right-side">
+              <h1 class="profession"> Birthday </h3>
+              <h3 class="name"> ❤️ </h3>            
+              </div>       
+          <div class="back-side">
+              <p class="biography">
+                To My Dearest Sunaina,
+
+                Happy birthday! I can't believe it's already been more than four years since we became friends. It feels like just yesterday we were meeting for the first time, and now here we are, closer than ever.
+                I'm so grateful for your friendship. You're the most amazing, caring, and supportive person I know. We talk every day, and you're always there for me, no matter what. You're the first person I want to share good news with, and the first person I turn to when I need someone to lean on.
+                I love that we can be ourselves around each other. We can talk about anything and everything, and we always know that we'll be accepted and loved. We may fight and argue from time to time, but at the end of the day, we always have each other's backs.
+                This past year has been a rollercoaster, but through it all, our friendship has remained strong. We've been there for each other through thick and thin, and I'm so proud of how much we've grown together.
+                I can't imagine my life without you. You're the best friend a person could ask for.
+                On your special day, I wish you all the happiness in the world. You deserve it more than anyone I know. I love you more than words can say.
+                Happy birthday, Sunaina!
+                Your loving best friend, Runmay!
+                P.S. Let's Celebrate Soon!
+                
+  
+  
+  
+              </p>
+          </div>
+          
+          <button class="button" onClick="window.open('wish.html');">
+            A Massage For You
+       </button>
+
+          <!-- <a href="wish.html">
+              <button onclick="wish.html" >A Massage For You</button>            
+          </a> -->
+      </div>
+      <div class="s-1"></div>
+      <div class="right-col">
+        <img src="images/play.png" id="icon">
+      </div>
+      </div>
+      <span id="count"></span>
+
+     <div class="lording" >
+      <div class="center">
+         <div class="ring"></div>
+         <span>loading...</span>
+      </div>
+    </div>
+<div id="home" class="home-style-2 slider-area" style="display:none">
+
+  <div class="particles-js" id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1366" height="606"></canvas></div>
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  <audio id="hbdmp" autoplay loop >
+      
+    <source src="hbd.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    var hbdmp = document.getElementById("hbdmp")
+    var icon = document.getElementById("icon")
+
+    icon.onclick = function(){
+     if(hbdmp.paused){
+       hbdmp.play();
+       icon.src ="images/pause.png";
+     }else{
+       hbdmp.pause();
+       icon.src = "images/play.png";
+     }
+
+    }
+
+  </script>
+  <script>
+
+    setTimeout(function() {
+      $('.lording').hide()
+    }, 5000);
+    
+    setTimeout(function() {
+      $('#container').show()
+    }, 5199);
+    
+    
+    </script>
+    
+</body>
+</html>
